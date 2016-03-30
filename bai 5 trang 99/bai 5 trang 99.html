@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> menu
+		</title>
+		<style>
+		*{
+			padding:0;
+			margin:0;
+		}
+		body{
+			padding:30px;
+		}
+		nav, h1{
+			margin:10px;
+			float:left;
+			width:100%;
+		}
+		li{
+			list-style:none;
+		}
+		.h_nav li{
+			display:inline-block;
+			width:100px;
+			border:1px solid;
+			background:#eee;
+			float:left;
+		}
+		.h_nav a{
+			text-decoration:none;
+			background:#aaa;
+			display:block;
+			height:100%;
+			text-align:center;
+			padding:5px 0;
+		}
+		.h_nav a:hover{
+			background:pink;
+			color:#fff;
+		}
+		.v_nav li{
+			width:150px;
+			border:1px solid;
+		}
+		.v_nav a{
+			background:red;
+			padding:5px 10px;
+			text-decoration:none;
+			display:block;
+			height:30px;
+		}
+		.v_nav a:hover{
+			background:yellow;
+			color:#aaa;
+		}
+		.d_nav li{
+			width:150px;
+			float:left;
+			border:1px solid;
+			
+		}
+		.d_nav a{
+			background:pink;
+			padding:5px 10px;
+			text-decoration:none;
+			display:block;
+			height:30px;
+		}
+		.d_nav a:hover{
+			background:green;
+			color:#ccc;
+		}
+		.d_nav li ul {
+			display:none;
+		}
+		.d_nav li:hover ul{
+			display:block;
+		}
+		.f_nav li{
+			width:150px;
+			border:1px solid;
+			position:relative;
+		}
+		.f_nav a{
+			background:#ccff;
+			padding:5px 10px;
+			text-decoration:none;
+			display:block;
+			height:30px;
+		}
+		.f_nav a:hover{
+			background:red;
+			color:#ccc;
+		}
+		.f_nav li ul{
+			display:none;
+			position:absolute;
+			left:150px;
+			top:30px;
+		}
+		.f_nav li:hover ul{
+			display:block;
+		}
+		</style>
+	</head>
+	<body>
+		<h1> Horizontal nacigation bar</h1>
+		<nav class="h_nav">
+			<ul>
+				<li><a href="#"> Home</a></li>
+				<li><a href="#"> New</a></li>
+				<li><a href="#"> Contact</a></li>
+				<li><a href="#"> About</a></li>
+			</ul>
+		</nav>
+		<h1> Vertical nacigation bar</h1>
+		<nav class="v_nav">
+			<ul>
+				<li><a href="#"> Home</a></li>
+				<li><a href="#"> New</a></li>
+				<li><a href="#"> Contact</a></li>
+				<li><a href="#"> About</a></li>
+			</ul>
+		</nav>
+		</nav>
+		<h1> dropdown nacigation bar</h1>
+		<nav class="d_nav">
+			<ul>
+				<li><a href="#"> Home</a></li>
+				<li><a href="#"> New</a>
+					<ul><li><a href="#"> tin tuc 1</a></li>
+					<li><a href="#"> tin tuc 2</a></li>
+					<li><a href="#"> tin tuc 3</a></li></ul>
+				</li>
+				<li><a href="#"> Contact</a>
+					<ul><li><a href="#"> lien he</a></li>
+					<li><a href="#"> gio thieu</a></li>
+					<li><a href="#"> dat hang</a></li></ul>
+				</li>
+				<li><a href="#"> About</a>
+					<ul><li><a href="#"> lich su</a></li>
+					<li><a href="#"> Hien tai</a></li>
+					</ul>
+				</li>
+				
+			</ul>
+		</nav>
+		<h1> Flyout nacigation bar</h1>
+		<nav class="f_nav">
+			<ul>
+				<li><a href="#"> Home</a></li>
+				<li><a href="#"> New</a>
+					<ul><li><a href="#"> tin tuc 1</a></li>
+					<li><a href="#"> tin tuc 2</a></li>
+					<li><a href="#"> tin tuc 3</a></li></ul>
+				</li>
+				<li><a href="#"> Contact</a>
+					<ul><li><a href="#"> lien he</a></li>
+					<li><a href="#"> gio thieu</a></li>
+					<li><a href="#"> dat hang</a></li></ul>
+				</li>
+				<li><a href="#"> About</a>
+					<ul><li><a href="#"> lich su</a></li>
+					<li><a href="#"> Hien tai</a></li>
+					</ul>
+				</li>
+				
+			</ul>
+	</body>
+	
+</html>

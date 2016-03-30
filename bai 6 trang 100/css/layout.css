@@ -1,0 +1,60 @@
+#container{
+	width:881px;
+	background-color:gray;
+	min-height:500px;
+	margin:auto;
+}
+header{
+	background:#aaa;
+	width:881px;
+	min-height:100px;
+	box-sizing:border-box;
+	padding:15px;
+	margin-top:15px;
+	margin-bottom:15px;
+	text-align: center;
+}
+nav{
+	background:#eee;
+	min-height:30px;
+	width:881px;
+	text-align: center;
+
+}
+#content{
+	width:881px;
+	background:#0ffb;
+	overflow:auto;
+	padding:15px;
+	box-sizing:border-box;
+}
+#recycle{
+	width:258px;
+	background:#000deb;
+	min-height:300px;
+	float:left;
+	margin-right:30px;
+	text-align: center;
+	padding:15px;
+	box-sizing:border-box;
+	
+}
+.service{
+	width:250px;
+	background:#a000ff;
+	min-height:300px;
+	float:left;
+	margin-right:30px;
+	text-align: center;
+	padding:15px;
+	box-sizing:border-box;
+}
+footer{
+	background:#aaddef;
+	min-height:50px;
+	clear:left;
+	text-align: center;
+	padding:15px;
+	box-sizing:border-box;
+}
+	
